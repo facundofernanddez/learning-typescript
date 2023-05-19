@@ -20,3 +20,5 @@ let checks: boolean[] = [];
 let num2: Array<number> = [];
 
 // nums.map(x => x.) // el autocompletado sugiere metodos del tipo de datos que hay en el array.
+
+let tupla: [number, string[]] = [1, ["facundo", "cajita feliz"]];
