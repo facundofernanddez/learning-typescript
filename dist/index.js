@@ -28,4 +28,15 @@ var Talla;
 const variable1 = Talla.Grande;
 console.log(variable1);
 const estado = 2;
+const objeto = {
+    id: 1,
+    nombre: "hola mundo",
+    talla: Talla.Chica,
+    direccion: {
+        numero: 1,
+        calle: "calle 1",
+        pais: "país 1",
+    },
+};
+const arr = [];
 //# sourceMappingURL=index.js.map

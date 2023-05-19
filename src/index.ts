@@ -47,14 +47,28 @@ const enum LoadingState {
 
 const estado = LoadingState.Success;
 
+type Direccion = {
+  numero: number;
+  calle: string;
+  pais: string;
+};
+
 type Persona = {
   readonly id: number;
   nombre: string;
   talla: Talla;
+  direccion: Direccion;
 };
 
 const objeto: Persona = {
   id: 1,
   nombre: "hola mundo",
   talla: Talla.Chica,
+  direccion: {
+    numero: 1,
+    calle: "calle 1",
+    pais: "país 1",
+  },
 };
+
+const arr: Persona[] = [];
